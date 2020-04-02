@@ -1,0 +1,40 @@
+### Backend
+    
+    Criação do projeto:
+        Criar uma pasta chamada "backend"
+        Executar seguintes comando dentro da pasta criada:
+            npm init -y
+            npm install express
+            npm install nodemon -D
+                "start": "nodemon index.js"
+
+            npm install knex
+            npm install sqlite3
+            npx knex init
+                development: {
+                    client: 'sqlite3',
+                    connection: {
+                    filename: './src/database/db.sqlite'
+                    },
+                    migrations: {
+                    directory: './src/database/migrations'
+                    }
+                },
+            
+            npx knex migrate:make {{nome-da-migration}}
+            npx knex migrate:latest
+
+            npm install cors
+            npm install celebrate
+           
+
+
+### Frontend
+    
+    Criação do projeto:
+        Executar seguinte código dentro da pasta raíz do projeto:
+            npx create-react-app frontend
+
+            npm install react-icons
+            npm install react-router-dom
+            npm install axios
