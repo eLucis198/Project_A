@@ -9,12 +9,12 @@
 
 body {
     font: 400 14px Roboto, sans-serif;
-    background: #f0f0f5;
+    background: #647ede;
     -webkit-font-smoothing: antialiased;
 }
 
 input, button, textarea {
-    font: 400 18px Roboto, sans-serif;
+    font: 400 17px Roboto, sans-serif;
 }
 
 button{
@@ -25,7 +25,7 @@ form input {
     width: 100%;
     height: 50px;
     color: #333;
-    border: 1px solid #dedce6;
+    border: 1px solid #5e81ff;
     border-radius: 8px;
     padding: 0 24px;
     margin-bottom: 3px;
@@ -33,17 +33,18 @@ form input {
 
 form h1 {
     width: 100%;
-    height: 50px;
+    height: 60px;
+    line-height: 60px;
     border: 0;
     font-weight: 700;
     display: inline-block;
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .button {
     width: 100%;
-    height: 60px;
+    height: 55px;
     background: #e02041;
     border: 0;
     border-radius: 8px;
@@ -54,7 +55,7 @@ form h1 {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 55px;
     transition: filter 0.2s;
 }
 

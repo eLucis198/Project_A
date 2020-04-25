@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 import api from '../../services/api';
 import './styles.css';
 
@@ -27,6 +26,7 @@ export default function Index(){
         };
 
         try {
+            console.log("trrr")
             await api.post('/', data);
             alert('Sucesso');
             setName('');
